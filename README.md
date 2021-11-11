@@ -1,5 +1,8 @@
 # covidDashboard
 
+Visit my site to see my covidDashboard project where you can stay up to date with the latest COVID-19 statistics.
+https://xenodochial-mayer-4a0cfd.netlify.app/#safety
+
 To run this code from your local host, follow these steps:
 
 1. npm install
