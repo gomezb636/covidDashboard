@@ -4,11 +4,13 @@ Visit my site to see my covidDashboard project where you can stay up to date wit
 
 https://xenodochial-mayer-4a0cfd.netlify.app/#safety
 
+
 To run this code from your local host, follow these steps:
 
 1. npm install
 
 2. npm run start
+
 
 Here is a list of the resources we used:
 
