@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(to top left, #3366ff 0%, #ff9966 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  width: 100vw;
+  border: 1px solid white;
+  background-color: white;
+  opacity: 0.5;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin: 25px 0px 20px 50px;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+ul {
+  list-style: none;
+  margin: 25px 30px 25px 0px;
+  padding: 0;
+  text-align: right;
+  color: black;
+}
+
+li {
+  display: flex;
+  text-align: right;
+  color: black;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  padding: 0 .5em;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(87, 41, 41);
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.image {
+  width: 900px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.safetyImage {
+  height: 8em;
+  margin: 40px 0px;
+}
+
+.bargraph {
+  justify-content: center;
+  width: 90vw;
+  margin-left: 150px;
+}
+
+.safe {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 50px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 80vh;
+  margin: 0;
+  justify-content: space-between;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
+
+.footer {
+  height: 25vh;
+  width: 100vw;
+  border-top: 1px solid black;
+  /* background-color: rgba(134, 128, 128, 0.562); */
+  background-color: #77716e;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 22px;
+  text-align: center;
+}
+
+.resourcesDiv {
+  justify-content: center;
+  text-align: center;
+  padding-left: 625px;
+}
+
+a {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}

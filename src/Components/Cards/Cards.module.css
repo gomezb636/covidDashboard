@@ -1,0 +1,63 @@
+.container {
+  margin: 50px 0px;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.card text {
+  size: 300px;
+}
+
+.infected {
+  background-color: rgb(255, 255, 255) !important;
+  border: 4px solid rgb(0, 51, 204);
+}
+
+.infected:hover {
+  background-color: rgb(202, 202, 231) !important;
+  border: 4px solid rgb(0, 51, 204);
+  transform: scale(1.2);
+}
+
+
+.recovered {
+  background-color: rgb(255, 255, 255) !important;
+  border: 4px solid rgb(0, 153, 0);
+}
+
+.recovered:hover {
+  background-color: rgb(176, 230, 169) !important;
+  border: 4px solid rgb(0, 153, 0);
+  transform: scale(1.2);
+}
+
+
+.deaths {
+  background-color: rgb(255, 255, 255) !important;
+  border: 4px solid rgb(204, 0, 0);
+}
+
+.deaths:hover {
+  background-color: rgb(241, 179, 179) !important;
+  border: 4px solid rgb(204, 0, 0);
+  transform: scale(1.2);
+}
+
+.active {
+  background-color: rgb(255, 255, 255) !important;
+  border: 4px solid rgb(225, 153, 0);
+}
+
+.active:hover {
+  background-color: rgb(240, 219, 152) !important;
+  border: 4px solid rgb(225, 153, 0);
+  transform: scale(1.2);
+}
+  
+  @media (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
